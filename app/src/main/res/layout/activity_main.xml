@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textColor="@android:color/black"
+        android:background="#0064a8"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:text="Trains Leaving Fruitvale Station:"
+        android:textSize="40dp"
+       />
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:text="Daly City"
+        android:textSize="40sp"
+        android:id="@+id/daly_city"
+        android:onClick="openDalyCity"/>
+    <TextView
+        android:id="@+id/dublin_pleasanton"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:textSize="40sp"
+        android:text="Dublin/Pleasanton"
+        android:onClick="openDublin"/>
+    <TextView
+        android:id="@+id/richmond"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:background="#0064a8"
+        android:textSize="40sp"
+        android:text="Richmond"
+        android:onClick="openRichmond"/>
+
+        <TextView
+            android:id="@+id/warm_springs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0064a8"
+            android:gravity="center_horizontal"
+            android:onClick="openWarm"
+            android:text="Warm Springs"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+    </LinearLayout>
+

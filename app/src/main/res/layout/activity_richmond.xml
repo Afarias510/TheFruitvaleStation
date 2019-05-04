@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/daly_city_xml"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DalyCity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh for times"
+        android:onClick="checkTimes"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/first_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutes"
+            android:textSize="36dp"/>
+
+        <TextView
+            android:id="@+id/first_platform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="platform"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/first_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="length"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/first_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/second_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutes"
+            android:textSize="36dp"/>
+
+        <TextView
+            android:id="@+id/second_platform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="platform"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/second_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="length"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/second_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/third_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minutes"
+            android:textSize="36dp"/>
+
+        <TextView
+            android:id="@+id/third_platform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="platform"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/third_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="length"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/third_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
